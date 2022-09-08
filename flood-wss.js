@@ -4,8 +4,8 @@
 // node scriptname.js
 
 const { io } = require("socket.io-client");
-const URL = 'wss://URL';
-const PATH = '/socket.io'
+const URL = 'wss://url.com.br';
+const PATH = '/path'
 const MAX_CLIENTS = 15000; 
 const CLIENT_CREATION_INTERVAL_IN_MS = 1; 
 const EMIT_INTERVAL_IN_MS = 1000; 
